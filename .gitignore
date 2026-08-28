@@ -1,0 +1,52 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# builds
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# environment
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+logs/
+
+# test artifacts
+playwright-report/
+test-results/
+blob-report/
+.nyc_output/
+
+# local databases / tooling
+.drizzle/
+*.sqlite
+*.sqlite3
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# infrastructure
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# AWS / serverless local artifacts
+.aws-sam/
+.serverless/
+
+# misc
+tmp/
+temp/

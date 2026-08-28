@@ -1,0 +1,35 @@
+name: Feature request
+description: Propose a new capability or improvement.
+title: 'feat: '
+labels: ['feature']
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user or engineering problem should this solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: considerations
+    attributes:
+      label: Engineering considerations
+      description: Security, concurrency, database, API, accessibility, or operational concerns.
