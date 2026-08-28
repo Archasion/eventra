@@ -13,15 +13,15 @@ Eventra combines platform roles with organisation-scoped membership roles. Autho
 ## Permission matrix
 
 | Action                          | Customer | Event Manager | Org Admin | Venue Staff | Platform Admin |
-|---------------------------------|:--------:|:-------------:|:---------:|:-----------:|:--------------:|
-| Buy tickets                     |    ✓    |      ✓       |    ✓     |     ✓      |       ✓       |
-| View own orders                 |    ✓    |      ✓       |    ✓     |     ✓      |       ✓       |
-| Create/edit organisation events |    —     |      ✓       |    ✓     |      —      |      ✓\*      |
-| Publish/cancel event            |    —     |      ✓       |    ✓     |      —      |      ✓\*      |
-| Manage organisation members     |    —     |       —       |    ✓     |      —      |      ✓\*      |
-| View organiser orders/attendees |    —     |      ✓       |    ✓     |   limited   |      ✓\*      |
-| Validate ticket                 |    —     |   permitted   |    ✓     |     ✓      |      ✓\*      |
-| Platform administration         |    —     |       —       |     —     |      —      |       ✓       |
+| ------------------------------- | :------: | :-----------: | :-------: | :---------: | :------------: |
+| Buy tickets                     |    ✓     |       ✓       |     ✓     |      ✓      |       ✓        |
+| View own orders                 |    ✓     |       ✓       |     ✓     |      ✓      |       ✓        |
+| Create/edit organisation events |    —     |       ✓       |     ✓     |      —      |      ✓\*       |
+| Publish/cancel event            |    —     |       ✓       |     ✓     |      —      |      ✓\*       |
+| Manage organisation members     |    —     |       —       |     ✓     |      —      |      ✓\*       |
+| View organiser orders/attendees |    —     |       ✓       |     ✓     |   limited   |      ✓\*       |
+| Validate ticket                 |    —     |   permitted   |     ✓     |      ✓      |      ✓\*       |
+| Platform administration         |    —     |       —       |     —     |      —      |       ✓        |
 
 `*` Platform administration should use explicit support/admin paths rather than silently bypassing all domain checks.
 
