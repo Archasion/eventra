@@ -1,9 +1,9 @@
-import 'dotenv/config';
+import { serverConfig } from '@eventra/config/server';
 
 import express from 'express';
 
 const app = express();
-const port = Number(process.env.PORT ?? 3000);
+const port = serverConfig.port;
 
 app.use(express.json());
 
